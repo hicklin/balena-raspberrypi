@@ -1,4 +1,20 @@
 - commits:
+    - subject: Restore ralink firmware (requested for cm4-ioboard and pi400)
+      hash: 90df2cb7f1ff6baf3b542b60ba51e489f25f6d6b
+      body: >
+        This change restores linux-firmware-ralink firmware for cm4-ioboard and
+        pi400. Restoring this allows the use of Ralink USB Wifi dongles based on
+        the rt2870 chipset using rt2870.bin.
+      footer:
+        Changelog-entry: Restore ralink firmware (requested for cm4-ioboard and pi400)
+        changelog-entry: Restore ralink firmware (requested for cm4-ioboard and pi400)
+        Signed-off-by: Keenan Johnson <keenan.johnson@gmail.com>
+        signed-off-by: Keenan Johnson <keenan.johnson@gmail.com>
+      author: Keenan Johnson
+      nested: []
+  version: 2.87.16+rev2
+  date: 2021-11-23T19:28:01.413Z
+- commits:
     - subject: Update meta-balena from v2.86.0 to v2.87.16
       hash: 02bac985697d93bab41fcca20a752fb11b7654eb
       body: |
